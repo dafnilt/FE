@@ -1,0 +1,71 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+$primary-color: #4CAF50;
+$secondary-color: #FF5733;
+$hover-color: #C70039;
+$additional-color: #008CBA;
+$hover-additional-color: #005f6b;
+$font-family-primary: 'Georgia, serif';
+$font-family-secondary: 'Verdana, sans-serif';
+$font-family-body: 'Arial, sans-serif';
+
+body {
+    font-family: $font-family-body;
+}
+
+.custom-heading {
+    color: $primary-color;
+    font-size: 2.5em;
+    font-family: $font-family-primary;
+}
+
+.custom-button {
+    background-color: $secondary-color;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+}
+
+.additional-component {
+    margin-top: 20px;
+    font-family: $font-family-secondary;
+
+    p {
+        font-size: 1.2em;
+        color: #555;
+    }
+}
+
+.btn-secondary {
+    background-color: $additional-color;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $hover-additional-color;
+    }
+}
